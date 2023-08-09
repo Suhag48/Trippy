@@ -1,0 +1,22 @@
+.about-container{
+    padding: 4rem 6rem;
+}
+.about-container h1{
+    padding-bottom: 1rem;
+}
+.about-container p{
+    padding-bottom: 2rem;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 850px){
+    .about-container{
+        padding: 4rem 2rem;
+    }
+    .about-container h1{
+        text-align: center;
+    }
+    .about-container p{
+        text-align: justify;
+    }
+}
